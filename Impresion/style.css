@@ -39,3 +39,12 @@ align-items: center;
 width: auto;
 height: 100px;
 }
+
+.Botones{
+    background-color: orangered;
+    color: white;
+    border-radius: 30px;
+    width: 80px;
+    height: 35px;
+
+}
