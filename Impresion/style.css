@@ -18,11 +18,13 @@ margin-top: 10px;
 }
 
 footer{
-color: white;  
-display: flex;
-justify-content: center ;
-
-}
+    color: white;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(7, 7, 15, 0.945);
+    }
 
 .Cotiza{
 background-color: orangered;
@@ -47,3 +49,9 @@ height: 100px;
     height: 35px;
     padding: 5px;
 }
+
+#map {
+height: 150px;
+width: auto;
+}
+      
