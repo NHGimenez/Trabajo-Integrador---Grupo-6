@@ -10,13 +10,15 @@
     <script src="./main.js"></script>
     <title>TresDe</title>
 </head>
+<body>
 
-<header><nav class="py-3 navbar navbar-expand-md bg-dark ">
+ <header>
+  <nav class="py-3 navbar navbar-expand-md bg-dark ">
      <div class="container">
         <a class="navbar-brand" href="#">
         <img src="./Imagenes/LogoTresDe.JPG" alt="" width="70px", height= "70px">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#btn" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" id="navegador" data-bs-toggle="collapse" data-bs-target="#btn" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="btn">
@@ -49,7 +51,8 @@
      </div>
    </nav>
 </header>
-<body>
+
+
 <div class="container">
     <div class="row">
       <div class="col">
@@ -181,7 +184,7 @@
                         <label for="email">Email:</label>
                         <input type="email" name="email" id="email"><br>
                     </div><br>
-                    <textarea name="Consulta" id="Consulta" cols="70" rows="5" placeholder="Deje aquí su consulta"></textarea>
+                    <textarea name="Consulta" id="Consulta" cols="40" rows="5" placeholder="Deje aquí su consulta"></textarea>
                     </div><br>
                 <button class = "Botones">Enviar</button>
             </form>
@@ -218,44 +221,44 @@
 <div class="card-group">
     <div class="card">
       <form>
-        <label for="NombreApellido">Nombre y apellido:</label>
-        <input type="text" id="NombreApellido" name = "NombreApellido" required>
-        <br><br>
-        <label for="Empresa">Empresa/Organización:</label>
-        <input type="text" id="Empresa" name = "Empresa" required>
-        <br><br>
-        <label for="Puesto">Puesto/Cargo:</label>
-        <input type="text" id="Puesto" name = "Puesto" required>
-        <br><br>
-        <label for="Telefono">Número telefónico:</label>
-        <input type="text" id="Telefono" name="Telefono" required>
-        <br><br>
-        <label for="Email">Correo electrónico:</label>
-        <input type="Email" name="Email" id="Email" required> 
-        <br><br>
-        <label for="Localidad">Localidad/Provincia:</label>
-        <input type="Localidad" id="Localidad" name = "Localidad" required>
-        <br><br>
-        <label for="ConsultaPor">Consulta por:</label>
-        <select id="ConsultaPor" name ="Consulta" required>
-          <option value="Diseño3D">Diseño 3D</option>
-          <option value="Impresión3D">Impresión 3D</option>
-          <option value="Ingenieríadeprocesos">Ingeniería de procesos</option>
-          <option value="Otro">Otro</option>
-        </select>
-        <br><br>
+          <label for="NombreApellido">Nombre y apellido:</label>
+             <input type="text" id="NombreApellido" name = "NombreApellido" required>
+                <br><br>
+          <label for="Empresa">Empresa/Organización:</label>
+              <input type="text" id="Empresa" name = "Empresa" required>
+                <br><br>
+          <label for="Puesto">Puesto/Cargo:</label>
+               <input type="text" id="Puesto" name = "Puesto" required>
+                 <br><br>
+          <label for="Telefono">Número telefónico:</label>
+               <input type="text" id="Telefono" name="Telefono" required>
+                  <br><br>
+          <label for="Email">Correo electrónico:</label>
+               <input type="Email" name="Email" id="Email" required> 
+                 <br><br>
+           <label for="Localidad">Localidad/Provincia:</label>
+              <input type="Localidad" id="Localidad" name = "Localidad" required>
+                 <br><br>
+           <label for="ConsultaPor">Consulta por:</label>
+              <select id="ConsultaPor" name ="Consulta" required>
+                 <option value="Diseño3D">Diseño 3D</option>
+                 <option value="Impresión3D">Impresión 3D</option>
+                 <option value="Ingenieríadeprocesos">Ingeniería de procesos</option>
+                 <option value="Otro">Otro</option>
+              </select>
+                  <br><br>
         Comentarios:
-        <br>
-        <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Deje aquí su comentario"></textarea>
-        <br><br>
-        <h6 id="mensajeValidacionCampos">Por favor, rellene todos los campos</h6>
-        <br/>
-        <button class = "Botones" onclick = "Enviar() "type ="button">Enviar</button>
-        <button class = "Botones" onclick="NuevaCotizacion()" type ="button">Nueva cotización</button>
+           <br>
+            <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Deje aquí su comentario"></textarea>
+              <br><br>
+              <h6 id="mensajeValidacionCampos">Por favor, rellene todos los campos</h6>
+           <br/>
+           <button class = "Botones" onclick = "Enviar() "type ="button">Enviar</button>
+           <button class = "Botones" onclick="NuevaCotizacion()" type ="button">Nueva cotización</button>
         </form>
-        <ul id="lista"></ul>
+      <ul id="lista"></ul>
     </div>
-</div>
+  </div>
 </div>
 
 </body>
