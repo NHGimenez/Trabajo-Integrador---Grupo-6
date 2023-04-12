@@ -88,9 +88,6 @@ form input[type="Localidad"]{
 	display:inline-block;
 }
 
-
-
-
 textarea{
 	width:100%;
 	height:100px;
@@ -98,7 +95,6 @@ textarea{
 	border-radius:3px;
 	background-color:#f6f6f6;			
 	margin:8px 8;
-	/*resize: vertical | horizontal | none | both*/
 	resize:none;
 	display:block;
 }
