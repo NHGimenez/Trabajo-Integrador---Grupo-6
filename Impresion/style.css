@@ -79,7 +79,7 @@ form{
 
 form label{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	width:200px;
+	width:300px;
 	font-weight:bold;
 	display:inline-block;
 }
@@ -88,7 +88,7 @@ form input[type="text"],
 form input[type="email"],
 form input[type="Localidad"]{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	width:180px;
+	width:300px;
 	padding:3px 10px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
