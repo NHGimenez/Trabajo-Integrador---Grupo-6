@@ -6,6 +6,11 @@ box-sizing: border-box;
 
 .nav-link{
  color: white;
+ font-size: large;
+}
+
+.nav-link:hover{
+ color: rgb(193, 58, 9);
 }
 
 
@@ -13,26 +18,29 @@ h2{
 color: rgb(193, 58, 9);
 background-size: 30px;
 display: flex;
-justify-content: center ;
+justify-content: center;
 margin-top: 10px;
 }
 
 footer{
-	
     color: white;  
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     background-color: rgba(7, 7, 15, 0.945);
-    }
+   }
 
 .cotiza{
+	display: flex;
+	justify-content: center;
+	margin-top: 8px;
+font-size: large;
 background-color: orangered;
 color: white;
-border-radius: 30px;
-width: 80px;
-height: 35px;
+border-radius: 50px;
+width: 75px;
+height: 30px;
 }
 
 h2{
@@ -62,19 +70,16 @@ width: auto;
 *{box-sizing:border-box;}
 
 form{
-
 	width:900px;
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
 	background-color:#c0bbbb;
-
 }
 
 form label{
-
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	width:300px;
+	width:200px;
 	font-weight:bold;
 	display:inline-block;
 }
@@ -82,9 +87,8 @@ form label{
 form input[type="text"],
 form input[type="email"],
 form input[type="Localidad"]{
-
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	width: 300px;
+	width:180px;
 	padding:3px 10px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
@@ -93,9 +97,7 @@ form input[type="Localidad"]{
 	display:inline-block;
 }
 
-
 textarea{
-
 	width:100%;
 	height:100px;
 	border:1px solid #f6f6f6;
@@ -105,5 +107,6 @@ textarea{
 	resize:none;
 	display:block;
 }
+
 
       
