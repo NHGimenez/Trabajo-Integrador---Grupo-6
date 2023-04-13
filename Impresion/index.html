@@ -230,23 +230,24 @@
 </div>
 
 <h2 id="cotiza">Cotizá ahora</h2>
-<div class="card-group">
+<div class="card-group" >
     <div class="card">
       <form>
-          <label for="NombreApellido">Nombre y apellido: </label>
-             <input type="text" id="NombreApellido" name = "NombreApellido" placeholder="Nombre y Apellido" required>
+
+          <label for="NombreApellido" >Nombre y apellido:  </label>
+             <input type="text" id="NombreApellido" name = "NombreApellido" placeholder="Ingrese su nombre y apellido" required >
                 <br><br>
           <label for="Empresa">Empresa/Organización:</label>
               <input type="text" id="Empresa" name = "Empresa" placeholder="Nombre de su empresa"required>
                 <br><br>
           <label for="Puesto">Puesto/Cargo:</label>
-               <input type="text" id="Puesto" name = "Puesto" placeholder="Cargo o puesto"required>
+               <input type="text" id="Puesto" name = "Puesto" placeholder="Cargo que ocupa en su empresa"required>
                  <br><br>
           <label for="Telefono">Número telefónico:</label>
                <input type="text" id="Telefono" name="Telefono" placeholder="N° de teléfono" required>
                   <br><br>
           <label for="Email">Correo electrónico:</label>
-               <input type="Email" name="Email" id="Email" placeholder="Correo electrónico" required> 
+               <input type="Email" name="Email" id="Email" placeholder="Ingrese su correo electrónico" required> 
                  <br><br>
            <label for="Localidad">Localidad/Provincia:</label>
               <input type="Localidad" id="Localidad" name = "Localidad" placeholder="Localidad de la empresa" required>
@@ -267,6 +268,7 @@
            <br/>
            <button class = "Botones" onclick = "Enviar() "type ="button">Enviar</button>
            <button class = "Botones" onclick="NuevaCotizacion()" type ="button">Nueva cotización</button>
+           
         </form>
       <ul id="lista"></ul>
     </div>
