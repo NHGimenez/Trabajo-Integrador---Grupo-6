@@ -176,33 +176,32 @@
     </div>
 
 <h2 id="contacto">Contacto</h2>
-   <div class="container-fluid bg-dark">
-      <div class="row">
-        <div class="card col">
-            <form action="#" target="" method="get" name=datosContacto>
-                <div>
-
+    <div class="card-group">
+        <div class="card">
+            <form>
+                <div class="divCentrado">
                     <div class="form-group">
-                        <label for="nombre">Nombre:</label>
-
-                          <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"><br>
-                    </div><br>
+                      <label for="nombre">Nombre:</label>
+                      <input type="text" name="nombre" id="nombre" placeholder=" Ingrese su nombre"><br>
+                    </div>
+                    <br>
                     <div class="form-group">
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" name="apellido" id="apellido"placeholder="Ingrese su apellido"><br>
-                    </div><br>
+                      <label for="apellido">Apellido:</label>
+                      <input type="text" name="apellido" id="apellido"placeholder="Ingrese su apellido"><br>
+                    </div>
+                    <br>
                     <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email"placeholder="Ingrese su email"><br>
-                    </div><br>
-                    <textarea name="Consulta" id="Consulta" cols="40" rows="5" placeholder="Deje aquí su consulta"></textarea>
-
-                    </div><br>
-                <button class = "Botones">Enviar</button>
+                      <label for="email">Email:</label>
+                      <input type="email" name="email" id="email"placeholder="Ingrese su email"><br>
+                    </div>
+                    <br>
+                    <textarea name="Consulta" id="Consulta" placeholder="Deje aquí su consulta"></textarea>
+                    <br><br>
+                    <button class = "Botones" type="button">Enviar</button>
+                </div><br>
             </form>
         </div>
     </div>
-  </div>
 
   <h2 id="procesos">Procesos</h2>
 <div class="card-group">
@@ -233,41 +232,42 @@
 <div class="card-group" >
     <div class="card">
       <form>
-
-          <label for="NombreApellido" >Nombre y apellido:  </label>
-             <input type="text" id="NombreApellido" name = "NombreApellido" placeholder="Ingrese su nombre y apellido" required >
-                <br><br>
-          <label for="Empresa">Empresa/Organización:</label>
-              <input type="text" id="Empresa" name = "Empresa" placeholder="Nombre de su empresa"required>
-                <br><br>
-          <label for="Puesto">Puesto/Cargo:</label>
-               <input type="text" id="Puesto" name = "Puesto" placeholder="Cargo que ocupa en su empresa"required>
-                 <br><br>
-          <label for="Telefono">Número telefónico:</label>
-               <input type="text" id="Telefono" name="Telefono" placeholder="N° de teléfono" required>
+          <div class="divCentrado">
+            <label for="NombreApellido" >Nombre y apellido:  </label>
+               <input type="text" id="NombreApellido" name = "NombreApellido" placeholder="Ingrese su nombre y apellido" required >
                   <br><br>
-          <label for="Email">Correo electrónico:</label>
-               <input type="Email" name="Email" id="Email" placeholder="Ingrese su correo electrónico" required> 
-                 <br><br>
-           <label for="Localidad">Localidad/Provincia:</label>
-              <input type="Localidad" id="Localidad" name = "Localidad" placeholder="Localidad de la empresa" required>
-                 <br><br>
-           <label for="ConsultaPor">Consulta por:</label>
-              <select id="ConsultaPor" name ="Consulta" required>
-                 <option value="Diseño3D">Diseño 3D</option>
-                 <option value="Impresión3D">Impresión 3D</option>
-                 <option value="Ingenieríadeprocesos">Ingeniería de procesos</option>
-                 <option value="Otro">Otro</option>
-              </select>
+            <label for="Empresa">Empresa/Organización:</label>
+                <input type="text" id="Empresa" name = "Empresa" placeholder="Nombre de su empresa"required>
                   <br><br>
-          <label>Comentarios:</label> 
-           <br>
-            <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Deje aquí su comentario"></textarea>
-              <br><br>
-              <h6 id="mensajeValidacionCampos">Por favor, rellene todos los campos</h6>
-           <br/>
-           <button class = "Botones" onclick = "Enviar() "type ="button">Enviar</button>
-           <button class = "Botones" onclick="NuevaCotizacion()" type ="button">Nueva cotización</button>
+            <label for="Puesto">Puesto/Cargo:</label>
+                 <input type="text" id="Puesto" name = "Puesto" placeholder="Cargo que ocupa en su empresa"required>
+                   <br><br>
+            <label for="Telefono">Número telefónico:</label>
+                 <input type="text" id="Telefono" name="Telefono" placeholder="N° de teléfono" required>
+                    <br><br>
+            <label for="Email">Correo electrónico:</label>
+                 <input type="Email" name="Email" id="Email" placeholder="Ingrese su correo electrónico" required> 
+                   <br><br>
+             <label for="Localidad">Localidad/Provincia:</label>
+                <input type="Localidad" id="Localidad" name = "Localidad" placeholder="Localidad de la empresa" required>
+                   <br><br>
+             <label for="ConsultaPor">Consulta por:</label>
+                <select id="ConsultaPor" name ="Consulta" required>
+                   <option value="Diseño3D">Diseño 3D</option>
+                   <option value="Impresión3D">Impresión 3D</option>
+                   <option value="Ingenieríadeprocesos">Ingeniería de procesos</option>
+                   <option value="Otro">Otro</option>
+                </select>
+                    <br><br>
+            <label>Comentarios:</label> 
+             <br>
+              <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Deje aquí su comentario"></textarea>
+                <br><br>
+                <h6 id="mensajeValidacionCampos">Por favor, rellene todos los campos</h6>
+             <br/>
+             <button class = "Botones" onclick = "Enviar() "type ="button">Enviar</button>
+             <button class = "Botones" onclick="NuevaCotizacion()" type ="button">Nueva cotización</button>
+          </div>
            
         </form>
       <ul id="lista"></ul>
