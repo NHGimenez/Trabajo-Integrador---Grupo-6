@@ -65,9 +65,9 @@ width: auto;
 }
 
 form{
-	width:70%;
+	width:100%;
 	padding:16px;
-	border-radius:10px;
+	border-radius:4px;
 	margin:auto;
 	background-color:#c0bbbb;
 }
@@ -93,6 +93,10 @@ form input[type="Localidad"]{
 
 .divCentrado{
 	text-align: center;
+}
+
+.hide{
+	display: none;
 }
 
 

@@ -10,6 +10,7 @@ function Enviar(){
     const Comentarios = document.getElementById("Comentarios").value;
     const lista = document.getElementById("lista");
     const item = document.createElement("Li");
+    document.getElementById("lista").style.display = "block";
     item.innerHTML = `<strong> NombreApellido:</strong> ${NombreApellido} | <strong>Empresa:</strong> ${Empresa} | <strong>Puesto:</strong> ${Puesto} |<strong>Telefono:</strong> ${Telefono} |<strong>Email:</strong> ${Email} |<strong>Localidad:</strong> ${Localidad} | <strong>Consulta:</strong> ${Consulta} |<strong>Comentarios:</strong> ${Comentarios} <br> <button onclick="DescargarResumen()" type ="button" class="Botones">Descargar resumen</button>`;
     item.id = 'itemHijoLista';
 
@@ -35,6 +36,8 @@ function NuevaCotizacion(){
   document.getElementById("Comentarios").value = '';
 
   $("#mensajeValidacionCampos").hide();
+
+  document.getElementById("lista").style.display = "none";
 
   let itemHijo = document.getElementById("lista").getElementsByTagName("Li");
 
