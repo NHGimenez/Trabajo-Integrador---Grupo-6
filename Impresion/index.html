@@ -1,295 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
-    <title>TresDe</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+  <title>TresDe</title>
 </head>
+
 <body>
 
- <header>
-  <nav class="py-3 navbar navbar-expand-md bg-dark ">
-     <div class="container">
+  <header>
+    <nav class="py-3 navbar navbar-expand-md bg-dark ">
+      <div class="container">
         <a class="navbar-brand" href="#">
-        <img src="./Imagenes/LogoTresDe.JPG" alt="" width="70px">
+          <img src="./Imagenes/LogoTresDe.JPG" alt="" width="70px">
         </a>
-        <button class="navbar-toggler" type="button" id="navegador" data-bs-toggle="collapse" data-bs-target="#btn" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" id="navegador" data-bs-toggle="collapse" data-bs-target="#btn"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="btn">
           <ul class="navbar-nav ms-auto">
-             <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
-             </li>
-             <li class="nav-item">
-                <a class="nav-link" href="#somos">Quienes Somos</a>
-             </li>
-             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#servicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Servicios
-                </a>
-               <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#somos">Quienes Somos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#servicios" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#servicios">Filamentos</a></li>
                 <li><a class="dropdown-item" href="#servicios">Modelos</a></li>
                 <li><a class="dropdown-item" href="#servicios">Tipo de Impresoras</a></li>
-               </ul>
-             </li>
-             <li class="nav-item">
-                 <a class="nav-link" href="#contacto">Contacto</a>
-             </li>
-              <li class="nav-item">
-                 <a class="nav-link" href="#procesos">Procesos</a>
-             </li>
-             <li class="nav-item">
-                <a class="cotiza" href="#cotiza"><strong>COTIZÁ</strong></a>
-             </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#procesos">Procesos</a>
+            </li>
+            <li class="nav-item">
+              <a class="cotiza" href="#cotiza"><strong>COTIZÁ</strong></a>
+            </li>
           </ul>
-       </div>
-     </div>
-   </nav>
-</header>
+        </div>
+      </div>
+    </nav>
+  </header>
 
 
-<div class="container">
+  <div class="container">
     <div class="row">
       <div class="col">
         <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-           <div class="carousel-inner">
-              <div class="carousel-item active">
-                 <img src="./imagenes/imagen1.png" class="img-fluid w-100" alt="">
-              </div>
-              <div class="carousel-item">
-                 <img src="./imagenes/imagen2.jpg" class="img-fluid w-100" alt="">
-              </div>
-              <div class="carousel-item">
-                 <img src="./imagenes/imagen3.png" class="img-fluid w-100" alt="">
-              </div>
-           </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagenes/imagen1.png" class="img-fluid w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/imagen2.jpg" class="img-fluid w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/imagen3.png" class="img-fluid w-100" alt="">
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-  </div>
- 
-  
+
+
     <h2 id="somos">Quiénes Somos</h2>
     <br>
-        <div class="container-md">
-          <div class="row">
-            <div class="col">
-              <p>Somos TresDe, una plataforma flexible que permite acercar productos para la industria, tanto insumos, modelos, como impresoras 3D. Llevamos el diseño y la manufactura digital a productos y necesidades reales.
-                Pioneros en el servicio de impresión 3D en serie en Argentina y con una incipiente trayectoria en brindar soluciones a pymes y grandes empresas.</p>
-              <p>Nuestra formación en diseño e ingeniería sumado al permanente contacto y conocimiento de la industria nos ayuda a potenciar los proyectos de nuestros clientes.
-                Aportamos nuestro conocimiento, experiencia y herramientas para el exitoso desarrollo de tu proyecto.</p> 
-              <p>Ideal para arquitectura, entidades educativas, moldería, decoración, diseño de todo tipo de piezas para múltiples industrias y organizaciones.
-                Nuestros servicios de soluciones a medida y equipos de última tecnología le permiten crear sin límites.</p>
-            </div>  
-          </div>
+    <div class="container-md">
+      <div class="row">
+        <div class="col">
+          <p>Somos TresDe, una plataforma flexible que permite acercar productos para la industria, tanto insumos,
+            modelos, como impresoras 3D. Llevamos el diseño y la manufactura digital a productos y necesidades reales.
+            Pioneros en el servicio de impresión 3D en serie en Argentina y con una incipiente trayectoria en brindar
+            soluciones a pymes y grandes empresas.</p>
+          <p>Nuestra formación en diseño e ingeniería sumado al permanente contacto y conocimiento de la industria nos
+            ayuda a potenciar los proyectos de nuestros clientes.
+            Aportamos nuestro conocimiento, experiencia y herramientas para el exitoso desarrollo de tu proyecto.</p>
+          <p>Ideal para arquitectura, entidades educativas, moldería, decoración, diseño de todo tipo de piezas para
+            múltiples industrias y organizaciones.
+            Nuestros servicios de soluciones a medida y equipos de última tecnología le permiten crear sin límites.</p>
+        </div>
       </div>
-  
-      <h2>Presentación Personal</h2>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-2">
-            <div class="col">
-              <div class="card text-center h-100">
-                <img src="./imagenes/foto-presentacion1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title"><strong>Bogliotti Natalia</strong></h5>
-                  <p class="card-text">CEO</p>
-                  <br>
-                  <a href="mailto:nataliabogliotti4@hotmail.com">Contactar</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card text-center h-100">
-                <img src="./imagenes/foto-presentacion2.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title"><strong>Florines Agustina</strong></h5>
-                  <p class="card-text">Jefa del Departamento Legal</p>
-                  <a href="mailto:agustinaflorines@gmail.com">Contactar</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card text-center h-100">
-                <img src="./imagenes/foto-presentacion3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title"><strong>Gimenez Nicolas</strong></h5>
-                  <p class="card-text">Jefe del Departamento Comercial</p>
-                  <a href="mailto:nicolas.hernan.gimenez@gmail.com">Contactar</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card text-center h-100">
-                <img src="./imagenes/foto-presentacion4.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title"><strong>Ferreyra Dario</strong></h5>
-                  <p class="card-text">Jefe del Departamento de RRHH</p>
-                  <a href="mailto:darionferreyra@hotmail.com">Contactar</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card text-center h-100">
-                <img src="./imagenes/foto-presentacion5.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title"> <strong>Martínez Jesús</strong></h5>
-                  <p class="card-text">Jefe del Departamento de Producción</p>
-                  <a href="mailto:jmartinez7ind@gmail.com">Contactar</a>
-                </div>
-              </div>
-            </div>
-          </div>
     </div>
-  <br><br>
+    
+    <h2>Presentación Personal</h2>
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-2">
+        <div class="col">
+          <div class="card text-center h-100">
+            <img src="./imagenes/foto-presentacion1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Bogliotti Natalia</strong></h5>
+              <p class="card-text">CEO</p>
+            </div>
+            <a class="card-link" href="mailto:nataliabogliotti4@hotmail.com">Contactar</a>
+            <br>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center h-100">
+            <img src="./imagenes/foto-presentacion2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Florines Agustina</strong></h5>
+              <p class="card-text">Jefa del Departamento Legal</p>
+            </div>
+            <a class="card-link" href="mailto:agustinaflorines@gmail.com">Contactar</a>
+            <br>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center h-100">
+            <img src="./imagenes/foto-presentacion3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Gimenez Nicolas</strong></h5>
+              <p class="card-text">Jefe del Departamento Comercial</p>
+            </div>
+            <a class="card-link" href="mailto:nicolas.hernan.gimenez@gmail.com">Contactar</a>
+            <br>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center h-100">
+            <img src="./imagenes/foto-presentacion4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Ferreyra Dario</strong></h5>
+              <p class="card-text">Jefe del Departamento de RRHH</p>
+            </div>
+            <a href="mailto:darionferreyra@hotmail.com">Contactar</a>
+            <br>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center h-100">
+            <img src="./imagenes/foto-presentacion5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> <strong>Martínez Jesús</strong></h5>
+              <p class="card-text">Jefe del Departamento de Producción</p>
+            </div>
+            <a href="mailto:jmartinez7ind@gmail.com">Contactar</a>
+            <br>
+          </div>
+        </div>
+      </div>
 
-      <h2 id="servicios">Servicios</h2>
+    <h2 id="servicios">Servicios</h2>
     <div class="card-group">
       <div class="card">
         <img src="./imagenes/imagen4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-             <h5 class="card-title"> <strong>Filamentos</strong></h5>
-              <p class="card-text">Contamos con distintos tipos de filamentos: PLA, PLA+, ABS, materiales flexibles y mucho más</p>
+          <h5 class="card-title"> <strong>Filamentos</strong></h5>
+          <p class="card-text">Contamos con distintos tipos de filamentos: PLA, PLA+, ABS, materiales flexibles y mucho
+            más</p>
         </div>
       </div>
       <div class="card">
         <img src="./imagenes/imagen5.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"> <strong>Modelos</strong></h5>
-          <p class="card-text">Tenemos gran variedad de modelos, piezas de diseño propio y no propio. Todas listas para ser impresas</p>
+          <p class="card-text">Tenemos gran variedad de modelos, piezas de diseño propio y no propio. Todas listas para
+            ser impresas</p>
         </div>
       </div>
       <div class="card">
         <img src="./imagenes/imagen6.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"> <strong>Impresoras 3D</strong></h5>
-          <p class="card-text">Brindamos una variedad de impresoras de excelente calidad, con buenas terminaciones, manuales de uso y listas para la fabricación de piezas</p>
+          <p class="card-text">Brindamos una variedad de impresoras de excelente calidad, con buenas terminaciones,
+            manuales de uso y listas para la fabricación de piezas</p>
         </div>
       </div>
     </div>
 
-<h2 id="contacto">Contacto</h2>
+    <h2 id="contacto">Contacto</h2>
     <div class="card-group">
-        <div class="card">
-            <form>
-                <div class="divCentrado">
-                    <div class="form-group">
-                      <label for="nombre">Nombre:</label>
-                      <input type="text" name="nombre" id="nombre" placeholder=" Ingrese su nombre"><br>
-                    </div>
-                    <br>
-                    <div class="form-group">
-                      <label for="apellido">Apellido:</label>
-                      <input type="text" name="apellido" id="apellido"placeholder="Ingrese su apellido"><br>
-                    </div>
-                    <br>
-                    <div class="form-group">
-                      <label for="email">Email:</label>
-                      <input type="email" name="email" id="email"placeholder="Ingrese su email"><br>
-                    </div>
-                    <br>
-                    <textarea name="Consulta" id="Consulta" placeholder="Deje aquí su consulta"></textarea>
-                    <br><br>
-                    <button class = "BotonEnviar" type="button">Enviar</button>
-                </div><br>
-            </form>
-        </div>
-    </div>
-
-  <h2 id="procesos">Procesos</h2>
-<div class="card-group">
-    <div class="card">
-       <img src="./imagenes/Paso1.png" class="card-img-top" alt="...">
-       <div class="card-body">
-         <h5 class="card-title"><strong>Paso 1:</strong> Diseño 3D</h5>
-          <p class="card-text">Para poder realizar cualquier impresión 3D se debe realizar el Diseño 3D de la pieza que se pretende imprimir.</p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="./imagenes/Paso2.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title"><strong>Paso 2:</strong> Configuración</h5>
-      <p class="card-text">Generamos todos los parámetros de impresión necesarios dependiendo del modelo, el uso, la posición de la impresión y, sobre todo, el material a utilizar.</p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="./imagenes/Paso3.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title"> <strong>Paso 3:</strong> Impresión 3D</h5>
-      <p class="card-text">Preparamos la máquina con el material y color necesario y ejecutamos el programa realizado en el paso anterior.</p>
-    </div>
-  </div>
-</div>
-
-<h2 id="cotiza">Cotizá ahora</h2>
-<div class="card-group" >
-    <div class="card">
-      <form>
+      <div class="card">
+        <form>
           <div class="divCentrado">
-            <label for="NombreApellido" >Nombre y apellido:  </label>
-               <input type="text" id="NombreApellido" name = "NombreApellido" placeholder="Ingrese su nombre y apellido" required >
-                  <br><br>
-            <label for="Empresa">Empresa / Organización:</label>
-                <input type="text" id="Empresa" name = "Empresa" placeholder="Nombre de su empresa"required>
-                  <br><br>
-            <label for="Puesto">Puesto / Cargo:</label>
-                 <input type="text" id="Puesto" name = "Puesto" placeholder="Cargo que ocupa en su empresa"required>
-                   <br><br>
-            <label for="Telefono">Número telefónico:</label>
-                 <input type="number" id="Telefono" name="Telefono" placeholder="N° de teléfono" required>
-                   <br><br>
-            <label for="Email">Correo electrónico:</label>
-                 <input type="Email" name="Email" id="Email" placeholder="Ingrese su correo electrónico" required> 
-                   <br><br>
-             <label for="Localidad">Localidad / Provincia:</label>
-                <input type="Localidad" id="Localidad" name = "Localidad" placeholder="Localidad de la empresa" required>
-                   <br><br>
-             <label for="ConsultaPor">Consulta por:</label>
-                <select id="ConsultaPor" name ="Consulta" required>
-                   <option value="Diseño3D">Diseño 3D</option>
-                   <option value="Impresión3D">Impresión 3D</option>
-                   <option value="Ingenieríadeprocesos">Ingeniería de procesos</option>
-                   <option value="Otro">Otro</option>
-                </select>
-                    <br><br>
-            <label>Comentarios:</label> 
-             <br>
-              <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Deje aquí su comentario"></textarea>
-                <br><br>
-                <h6 id="mensajeValidacionCampos">Por favor, rellene todos los campos</h6>
-             <br/>
-             <button class = "BotonEnviar" onclick = "Enviar() "type ="button">Enviar</button>
-             <button class = "BotonLimpiar" onclick="Limpiar()" type ="button">Limpiar</button>
-          </div>
-           
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="nombre" id="nombre" placeholder=" Ingrese su nombre"><br>
+            </div>
+            <br>
+            <div class="form-group">
+              <label for="apellido">Apellido:</label>
+              <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido"><br>
+            </div>
+            <br>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="Ingrese su email"><br>
+            </div>
+            <br>
+            <textarea name="Consulta" id="Consulta" placeholder="Deje aquí su consulta"></textarea>
+            <br><br>
+            <button class="BotonEnviar" type="button">Enviar</button>
+          </div><br>
         </form>
-      <ul id="lista" class="hide"></ul>
+      </div>
+    </div>
+
+    <h2 id="procesos">Procesos</h2>
+    <div class="card-group">
+      <div class="card">
+        <img src="./imagenes/Paso1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Paso 1:</strong> Diseño 3D</h5>
+          <p class="card-text">Para poder realizar cualquier impresión 3D se debe realizar el Diseño 3D de la pieza que
+            se pretende imprimir.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./imagenes/Paso2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Paso 2:</strong> Configuración</h5>
+          <p class="card-text">Generamos todos los parámetros de impresión necesarios dependiendo del modelo, el uso, la
+            posición de la impresión y, sobre todo, el material a utilizar.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./imagenes/Paso3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> <strong>Paso 3:</strong> Impresión 3D</h5>
+          <p class="card-text">Preparamos la máquina con el material y color necesario y ejecutamos el programa
+            realizado en el paso anterior.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="cotiza">Cotizá ahora</h2>
+    <div class="card-group">
+      <div class="card">
+        <form>
+          <div class="divCentrado">
+            <label for="NombreApellido">Nombre y apellido: </label>
+            <input type="text" id="NombreApellido" name="NombreApellido" placeholder="Ingrese su nombre y apellido"
+              required>
+            <br><br>
+            <label for="Empresa">Empresa / Organización:</label>
+            <input type="text" id="Empresa" name="Empresa" placeholder="Nombre de su empresa" required>
+            <br><br>
+            <label for="Puesto">Puesto / Cargo:</label>
+            <input type="text" id="Puesto" name="Puesto" placeholder="Cargo que ocupa en su empresa" required>
+            <br><br>
+            <label for="Telefono">Número telefónico:</label>
+            <input type="number" id="Telefono" name="Telefono" placeholder="N° de teléfono" required>
+            <br><br>
+            <label for="Email">Correo electrónico:</label>
+            <input type="Email" name="Email" id="Email" placeholder="Ingrese su correo electrónico" required>
+            <br><br>
+            <label for="Localidad">Localidad / Provincia:</label>
+            <input type="Localidad" id="Localidad" name="Localidad" placeholder="Localidad de la empresa" required>
+            <br><br>
+            <label for="ConsultaPor">Consulta por:</label>
+            <select id="ConsultaPor" name="Consulta" required>
+              <option value="Diseño3D">Diseño 3D</option>
+              <option value="Impresión3D">Impresión 3D</option>
+              <option value="Ingenieríadeprocesos">Ingeniería de procesos</option>
+              <option value="Otro">Otro</option>
+            </select>
+            <br><br>
+            <label>Comentarios:</label>
+            <br>
+            <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"
+              placeholder="Deje aquí su comentario"></textarea>
+            <br><br>
+            <h6 id="mensajeValidacionCampos">Por favor, rellene todos los campos</h6>
+            <br />
+            <button class="BotonEnviar" onclick="Enviar() " type="button">Enviar</button>
+            <button class="BotonLimpiar" onclick="Limpiar()" type="button">Limpiar</button>
+          </div>
+
+        </form>
+        <ul id="lista" class="hide"></ul>
+      </div>
     </div>
   </div>
-</div>
-<br>
+  <br>
 
 
-<footer>
+  <footer>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <h3>Nuestra ubicación</h3>
     <div id="map"></div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
       defer></script>
     <div><a href="http://www.facebook.com"><img src="./Imagenes/facebook.png" alt="Facebook">Facebook.com/TresDe</a>
       <a href="http://www.twitter.com"><img src="./Imagenes/twitter.png" alt="Twitter"> Twitter.com/TresDe</a>
-      <a href="http://www.instagram.com"><img src="./Imagenes/instagram.png" alt="Instagram">Instagram.com/TresDe</a></div>
-      <div><p>&copy; 2023 TRESDE. Todos los derechos reservados.</p></div>
+      <a href="http://www.instagram.com"><img src="./Imagenes/instagram.png" alt="Instagram">Instagram.com/TresDe</a>
     </div>
-</footer>
+    <div>
+      <p>&copy; 2023 TRESDE. Todos los derechos reservados.</p>
+    </div>
+    </div>
+  </footer>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>   
-<script src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
 </body>
+
 </html>
