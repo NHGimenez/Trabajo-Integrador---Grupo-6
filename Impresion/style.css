@@ -43,20 +43,33 @@ font-size: large;
 background-color: orangered;
 color: white;
 border-radius: 50px;
-width: 75px;
+width: 90px;
 height: 30px;
 }
 
-.Botones{
+.BotonLimpiar{
     background-color: orangered;
     color: white;
     border-radius: 30px;
-    height: 35px;
+	border-color: white;
+	width: 15%;
+    height: 40px;
     padding: 5px;
 }
 
+.BotonEnviar{
+    background-color: rgba(0, 84, 105, 0.945);
+    color: white;
+    border-radius: 30px;
+	border-color: white;
+	width: 25%;
+    height: 40px;
+    padding: 5px;
+
+}
+
 #map {
-height: 150px;
+height: 200px;
 width: auto;
 }
 
@@ -81,6 +94,7 @@ form label{
 }
 
 form input[type="text"],
+form input[type="number"],
 form input[type="email"],
 form input[type="Localidad"]{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

@@ -92,7 +92,7 @@ $( document ).ready(function() {
 function initMap() {
   const UTN = { lat:  -31.442391730017608, lng: -64.19326539021857, };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 16,
     center: UTN,
   });
   const Marker = new google.maps.Marker({
