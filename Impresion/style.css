@@ -1,29 +1,29 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .nav-link{
- color: white;
- font-size: large;
+	color: white;
+	font-size: large;
 }
 
 .nav-link:hover{
- color: rgb(193, 58, 9);
+ 	color: rgb(193, 58, 9);
 }
 
 
 h2{
-background-color: rgba(7, 7, 15, 0.945);
-color: orangered;
-background-size: 30px;
-display: flex;
-justify-content: center;
-align-items: center;
-width: auto;
-height: 100px;
-margin-top: 10px;
+	background-color: rgba(7, 7, 15, 0.945);
+	color: orangered;
+	background-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 100px;
+	margin-top: 10px;
 }
 
 footer{
@@ -39,12 +39,12 @@ footer{
 	display: flex;
 	justify-content: center;
 	margin-top: 8px;
-font-size: large;
-background-color: orangered;
-color: white;
-border-radius: 50px;
-width: 90px;
-height: 30px;
+	font-size: large;
+	background-color: orangered;
+	color: white;
+	border-radius: 50px;
+	width: 90px;
+	height: 30px;
 }
 
 .Botones{
@@ -77,6 +77,16 @@ height: 30px;
     height: 40px;
     padding: 5px;
 
+}
+
+.BotonDescargar{
+    background-color: orangered;
+    color: white;
+    border-radius: 30px;
+	border-color: white;
+	width: 25%;
+    height: 40px;
+    padding: 5px;
 }
 
 #map {
@@ -150,4 +160,7 @@ textarea{
 	}
   }
 
+  .cotizacion{
+	text-align: left;
+  }
       

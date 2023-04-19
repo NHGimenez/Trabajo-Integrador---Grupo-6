@@ -1,4 +1,4 @@
-function Enviar(){
+/* function Enviar(){
   if(ValidarCampos()){
     const NombreApellido = document.getElementById("NombreApellido").value;
     const Empresa = document.getElementById("Empresa").value;
@@ -22,6 +22,25 @@ function Enviar(){
     }
     
     lista.appendChild(item);
+  }    
+} */
+
+function Enviar(){
+  if(ValidarCampos()){
+    const NombreApellido = document.getElementById("NombreApellido").value;
+    const Empresa = document.getElementById("Empresa").value;
+    const Puesto = document.getElementById("Puesto").value;
+    const Telefono = document.getElementById("Telefono").value;
+    const Email = document.getElementById("Email").value;
+    const Localidad = document.getElementById("Localidad").value;
+    const Consulta = $("#ConsultaPor option:selected").text();
+    const Comentarios = document.getElementById("Comentarios").value;
+    const cotizacion = document.getElementById("cotizacion");
+
+    cotizacion.innerHTML = `<strong> Nombre y Apellido:</strong> ${NombreApellido} <br> <strong>Empresa/Organización:</strong> ${Empresa} <br>
+    <strong>Puesto/Cargo:</strong> ${Puesto} <br> <strong>Número telefónico:</strong> ${Telefono} <br> <strong>Correo electrónico:</strong> ${Email} <br>
+    <strong>Localidad/Provincia:</strong> ${Localidad} <br> <strong>Consulta por:</strong> ${Consulta} <br> <strong>Comentarios:</strong> ${Comentarios} <br>`;
+  
   }    
 }
 

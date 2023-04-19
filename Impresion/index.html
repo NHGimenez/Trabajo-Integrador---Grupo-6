@@ -283,6 +283,31 @@
             <br />
             <button class="BotonEnviar" onclick="Enviar() " type="button">Enviar</button>
             <button class="BotonLimpiar" onclick="Limpiar()" type="button">Limpiar</button>
+
+            <br>
+            <!-- Button trigger modal -->
+            <button onclick="Enviar()" type="button" class="btn-primary BotonEnviar" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Enviar
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Cotización Enviada</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p id="cotizacion" class="cotizacion"></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary BotonEnviar" data-bs-dismiss="modal">Aceptar</button>
+                    <button onclick="DescargarResumen()" type="button" class="btn btn-primary BotonDescargar">Descargar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </form>
