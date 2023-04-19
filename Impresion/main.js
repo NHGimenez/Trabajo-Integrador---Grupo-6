@@ -25,7 +25,7 @@ function Enviar(){
   }    
 }
 
-function NuevaCotizacion(){
+function Limpiar(){
   document.getElementById("NombreApellido").value = '';
   document.getElementById("Empresa").value = '';
   document.getElementById("Puesto").value = '';
