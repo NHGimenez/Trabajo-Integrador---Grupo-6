@@ -30,14 +30,6 @@ function Limpiar(){
 
   $("#mensajeValidacionCampos").hide();
 
-  document.getElementById("lista").style.display = "none";
-
-  let itemHijo = document.getElementById("lista").getElementsByTagName("Li");
-
-  if(itemHijo.length > 0){
-    let itemBorrar = document.getElementById('itemHijoLista');
-    lista.removeChild(itemBorrar);
-  }
 }
 
 function ValidarCampos(){
