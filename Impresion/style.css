@@ -58,7 +58,6 @@ footer{
 }
 
 .BotonLimpiar{
-	display: flexbox;
     background-color: orangered;
     color: white;
     border-radius: 30px;
@@ -161,6 +160,9 @@ textarea{
 		width: 40%;
 	}
 	.BotonLimpiar{
+		width: 40%;
+	}
+	.BotonDescargar{
 		width: 40%;
 	}
   }
