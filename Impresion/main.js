@@ -1,30 +1,3 @@
-/* function Enviar(){
-  if(ValidarCampos()){
-    const NombreApellido = document.getElementById("NombreApellido").value;
-    const Empresa = document.getElementById("Empresa").value;
-    const Puesto = document.getElementById("Puesto").value;
-    const Telefono = document.getElementById("Telefono").value;
-    const Email = document.getElementById("Email").value;
-    const Localidad = document.getElementById("Localidad").value;
-    const Consulta = $("#ConsultaPor option:selected").text();
-    const Comentarios = document.getElementById("Comentarios").value;
-    const lista = document.getElementById("lista");
-    const item = document.createElement("Li");
-    document.getElementById("lista").style.display = "block";
-    item.innerHTML = `<strong> NombreApellido:</strong> ${NombreApellido} | <strong>Empresa:</strong> ${Empresa} | <strong>Puesto:</strong> ${Puesto} |<strong>Telefono:</strong> ${Telefono} |<strong>Email:</strong> ${Email} |<strong>Localidad:</strong> ${Localidad} | <strong>Consulta:</strong> ${Consulta} |<strong>Comentarios:</strong> ${Comentarios} <br> <button onclick="DescargarResumen()" type ="button" class="Botones">Descargar resumen</button>`;
-    item.id = 'itemHijoLista';
-
-    let itemHijo = document.getElementById("lista").getElementsByTagName("Li");
-
-    if(itemHijo.length > 0){
-      let itemBorrar = document.getElementById('itemHijoLista');
-      lista.removeChild(itemBorrar);
-    }
-    
-    lista.appendChild(item);
-  }    
-} */
-
 function Enviar(){
   if(ValidarCampos()){
     const NombreApellido = document.getElementById("NombreApellido").value;
@@ -41,6 +14,7 @@ function Enviar(){
     <strong>Puesto/Cargo:</strong> ${Puesto} <br> <strong>Número telefónico:</strong> ${Telefono} <br> <strong>Correo electrónico:</strong> ${Email} <br>
     <strong>Localidad/Provincia:</strong> ${Localidad} <br> <strong>Consulta por:</strong> ${Consulta} <br> <strong>Comentarios:</strong> ${Comentarios} <br>`;
   
+    $('#staticBackdrop').modal('show')
   }    
 }
 
