@@ -81,16 +81,3 @@ function DescargarResumen(){
 $( document ).ready(function() {
   $("#mensajeValidacionCampos").hide();
 });
-
-function initMap() {
-  const UTN = { lat:  -31.442391730017608, lng: -64.19326539021857, };
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 16,
-    center: UTN,
-  });
-  const Marker = new google.maps.Marker({
-    position: UTN,
-    map: map,
-  });
-}
-window.initMap = initMap;
