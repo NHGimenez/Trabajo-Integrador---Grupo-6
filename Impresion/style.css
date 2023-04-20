@@ -47,16 +47,6 @@ footer{
 	height: 30px;
 }
 
-.Botones{
-    background-color: green;
-    color: white;
-    border-radius: 30px;
-	border-color: white;
-	width: 15%;
-    height: 40px;
-    padding: 5px;
-}
-
 .BotonLimpiar{
     background-color: orangered;
     color: white;
